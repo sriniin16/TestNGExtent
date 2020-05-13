@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="20">
+    <parameter name="param-value" value="methodparam"></parameter>
+    <listeners>
+        <listener class-name="TestListener"></listener>
+    </listeners>
+
+    <test name="cucumber">
+        <classes>
+            <class name="Runner"></class>
+        </classes>
+    </test>
+</suite>

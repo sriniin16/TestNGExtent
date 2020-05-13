@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ClassLevelTest">
+        <methods>
+          <include name="afterclasstest"/>
+          <include name="beforeclassTest"/>
+          <include name="paramtestXML"/>
+        </methods>
+      </class> <!-- ClassLevelTest -->
+      <class name="API.APITest">
+        <methods>
+          <include name="getOps"/>
+        </methods>
+      </class> <!-- API.APITest -->
+      <class name="AppTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="suiteTeardown"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test5"/>
+          <include name="afterGroup"/>
+          <include name="beforeTest"/>
+          <include name="test6"/>
+          <include name="afterClass"/>
+          <include name="test1"/>
+          <include name="beforeGroup"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
